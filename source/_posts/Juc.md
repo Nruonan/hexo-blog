@@ -409,4 +409,4 @@ before
 after
 ```
 
-![](thread.png)
+![thread](thread-17338344753981.png)
