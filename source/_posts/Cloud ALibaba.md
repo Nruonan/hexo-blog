@@ -31,7 +31,7 @@ CAP  原则又称CAP定理，指的是在一个分布式系统中，存在Consis
 
 在服务之间调用的话，我们都是基于 HTTP 协议，一般用到的远程服务框架有 OKHttp3，Netty, HttpURLConnection 等。其调用流程如下：
 
-![](https://cdn.nlark.com/yuque/0/2024/png/34596451/1732590614281-36e2fb2c-c877-4591-8e4d-dadcf48d8288.png)
+![](1732590614281-36e2fb2c-c877-4591-8e4d-dadcf48d8288.png)
 
 但是这种虚线方框中的构造请求的过程是很**繁琐**的，有没有更**简便**的方式呢？
 
@@ -40,7 +40,7 @@ CAP  原则又称CAP定理，指的是在一个分布式系统中，存在Consis
 ### OpenFeign工作流程
 先看下 OpenFeign 的核心流程图：
 
-![](https://cdn.nlark.com/yuque/0/2024/png/34596451/1732590758302-e6ab47e2-f3da-4a75-ba6b-323e79c1dfbc.png)
+![](1732590758302-e6ab47e2-f3da-4a75-ba6b-323e79c1dfbc.png)
 
 + 1、在 Spring 项目启动阶段，服务 A 的OpenFeign 框架会发起一个主动的扫包流程。
 + 2、从指定的目录下扫描并加载所有被 @FeignClient 注解修饰的接口，然后将这些接口转换成 Bean，统一交给 Spring 来管理。
