@@ -205,7 +205,7 @@ public static void main(String[] args) {
 
 ## 线程状态转换
 
-![线程转换图](life.png)
+![image](ace830df-9919-48ca-91b5-60b193f593d2.png)
 
 ### 新建 New
 
@@ -409,6 +409,4 @@ before
 after
 ```
 
-
-
-![img](https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/thread/wangzhe-thread-04.png)
+![img](wangzhe-thread-04.png)

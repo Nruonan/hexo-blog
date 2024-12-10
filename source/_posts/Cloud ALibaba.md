@@ -164,7 +164,7 @@ spring:
 ```
 
 ### 配置管理
-![](https://cdn.nlark.com/yuque/0/2024/png/34596451/1732512781202-dbd51330-3f89-4bb5-b5ab-614f19301dd0.png)
+![](1732512781202-dbd51330-3f89-4bb5-b5ab-614f19301dd0.png)
 
 1. 设置Date ID： 默认为程序名-dev.yml
 2. 将需要配置的内容放置下方
@@ -190,20 +190,20 @@ spring:
 
 程序会实时监听配置类的信息，判断你是否添加新的配置进去。
 
-![](https://cdn.nlark.com/yuque/0/2024/png/34596451/1732513012294-76b6a088-adc1-4a44-b8b1-85d2f18402a3.png)
+![](1732513012294-76b6a088-adc1-4a44-b8b1-85d2f18402a3.png)
 
 这里我添加了一个zzh的新值进去，idea程序实时监听
 
-![](https://cdn.nlark.com/yuque/0/2024/png/34596451/1732513054194-c1f7b7c7-64dc-45fc-974b-9da6faf6ffff.png)
+![](1732513054194-c1f7b7c7-64dc-45fc-974b-9da6faf6ffff.png)
 
 但此时你无法读取到配置的改变，如果想实时刷新配置内容并使用需要添加注解实现热更新
 
-![](https://cdn.nlark.com/yuque/0/2024/png/34596451/1732513112573-906217c5-17db-49d1-aef7-5acd35cef806.png)
+![](1732513112573-906217c5-17db-49d1-aef7-5acd35cef806.png)
 
 **<font style="color:rgb(44, 62, 80);">注意：Nacos的配置项优先级高于application.propertite里面的配置。</font>**
 
 ### 服务管理  
-![](https://cdn.nlark.com/yuque/0/2024/png/34596451/1732512664743-b19eaeea-f1f9-45d0-a84a-418e61a2eada.png)
+![](1732512664743-b19eaeea-f1f9-45d0-a84a-418e61a2eada.png)
 服务管理分集群使用，如果设置了` ephemeral: false` 临时实例为`false`
 
 **集群分区**通过 `cluster-name: '集群名字'`来实现集群
@@ -211,7 +211,7 @@ spring:
 ### 命名空间
 通过添加命名空间获取ID
 
-![](https://cdn.nlark.com/yuque/0/2024/png/34596451/1732515676058-66ce7491-3517-4504-a6cb-7a3846dcaaa5.png)
+![](1732515676058-66ce7491-3517-4504-a6cb-7a3846dcaaa5.png)
 
 在application.yml添加此id进去
 
@@ -294,7 +294,7 @@ spring:
 #### 局部过滤器
 <font style="color:rgb(44, 62, 80);">局部过滤器，应用在单个路由或一组路由上的过滤器。标红色表示比较常用的过滤器。</font>
 
-![](https://cdn.nlark.com/yuque/0/2024/png/34596451/1732589561063-f0490508-5fae-4469-92b9-0f286410f3e8.png)
+![](1732589561063-f0490508-5fae-4469-92b9-0f286410f3e8.png)
 
 在配置文件中添加filters属性
 
@@ -397,7 +397,7 @@ SSL 加密及证书管理、Session 验证、授权、数据校验，以及对�
 
 高可用性涵盖了内部和外部的各种不确定因素，这里讲一下网关系统在高可用性方面做的努力。
 
-![](https://cdn.nlark.com/yuque/0/2024/png/34596451/1732590488499-9411e4b3-e877-4f04-82f4-a4ee3cda2b50.png)
+![](1732590488499-9411e4b3-e877-4f04-82f4-a4ee3cda2b50.png)
 
 #### 高扩展
 因为网关需要承接所有的业务流量和请求，所以一定会有或多或少的业务逻辑。而我们都知道，业务逻辑是多变和不确定的。比如，需要在网关上加入一些和业务相关的东西。因此，一个好的 Gateway 还需要是可以扩展的，并能进行二次开发的。当然，像 Nginx 那样通过 Module 进行二次开发的固然可以。
@@ -432,7 +432,7 @@ Sentinel 具有以下特征:
 + **广泛的开源生态**<font style="color:#000000;background-color:rgba(255, 255, 255, 0);">：Sentinel 提供开箱即用的与其它开源框架/库的整合模块，例如与 Spring Cloud、Apache Dubbo、gRPC、Quarkus 的整合。您只需要引入相应的依赖并进行简单的配置即可快速地接入 Sentinel。同时 Sentinel 提供 Java/Go/C++ 等多语言的原生实现。</font>
 + **完善的 SPI 扩展机制**<font style="color:#000000;background-color:rgba(255, 255, 255, 0);">：Sentinel 提供简单易用、完善的 SPI 扩展接口。您可以通过实现扩展接口来快速地定制逻辑。例如定制规则管理、适配动态数据源等。</font>
 
-<font style="color:#000000;background-color:rgba(255, 255, 255, 0);"></font>
+
 
 <font style="color:#000000;background-color:rgba(255, 255, 255, 0);">Sentinel控制台下载：</font>[Releases · alibaba/Sentinel](https://github.com/alibaba/Sentinel/releases)
 
@@ -444,7 +444,7 @@ Sentinel 具有以下特征:
 </dependency>
 ```
 
-![](https://cdn.nlark.com/yuque/0/2024/png/34596451/1732530728726-48da0106-dc1e-4d01-8cc2-d6d18a91c552.png)
+![](1732530728726-48da0106-dc1e-4d01-8cc2-d6d18a91c552.png)
 
 **yml配置**
 
@@ -477,7 +477,7 @@ spring:
 
 顾名思义，就像一个桶开了一个小孔，水流进桶中的速度肯定是远大于水流出桶的速度的，这也是最简单的一种限流思路：
 
-+ ![](https://cdn.nlark.com/yuque/0/2024/webp/34596451/1732535005870-30bf134c-5fd7-4bb3-ae40-8fe3af9ec69d.webp)
++ ![](1732535005870-30bf134c-5fd7-4bb3-ae40-8fe3af9ec69d.webp)
 
 我们知道，桶是有容量的，所以当桶的容量已满时，就装不下水了，这时就只有丢弃请求了。
 
@@ -487,7 +487,7 @@ spring:
 
 只能说有点像信号量机制。现在有一个令牌桶，这个桶是专门存放令牌的，每隔一段时间就向桶中丢入一个令牌（速度由我们指定）当新的请求到达时，将从桶中删除令牌，接着请求就可以通过并给到服务，但是如果桶中的令牌数量不足，那么不会删除令牌，而是让此数据包等待。
 
-+ ![](https://cdn.nlark.com/yuque/0/2024/webp/34596451/1732535005889-fde6ba3d-9672-4050-917d-4edc95a7d7fd.webp)
++ ![](1732535005889-fde6ba3d-9672-4050-917d-4edc95a7d7fd.webp)
 
 可以试想一下，当流量下降时，令牌桶中的令牌会逐渐积累，这样如果突然出现高并发，那么就能在短时间内拿到大量的令牌。
 
@@ -495,7 +495,7 @@ spring:
 
 我们可以对某一个时间段内的请求进行统计和计数，比如在`14:15`到`14:16`这一分钟内，请求量不能超过`100`，也就是一分钟之内不能超过`100`次请求，那么就可以像下面这样进行划分：
 
-+ ![](https://cdn.nlark.com/yuque/0/2024/webp/34596451/1732535005938-8d860c74-522c-4ea5-a6a6-a564ec831200.webp)
++ ![](1732535005938-8d860c74-522c-4ea5-a6a6-a564ec831200.webp)
 
 虽然这种模式看似比较合理，但是试想一下这种情况：
 
@@ -510,7 +510,7 @@ spring:
 
 相对于固定窗口算法，滑动时间窗口算法更加灵活，它会动态移动窗口，重新进行计算：
 
-+ ![](https://cdn.nlark.com/yuque/0/2024/webp/34596451/1732535005932-1223c243-f6b9-4435-9d00-63c2d6df51bb.webp)
++ ![](1732535005932-1223c243-f6b9-4435-9d00-63c2d6df51bb.webp)
 
 虽然这样能够避免固定时间窗口的临界问题，但是这样显然是比固定窗口更加耗时的。
 
@@ -533,12 +533,12 @@ spring:
       web-context-unify: false
 ```
 
-![](https://cdn.nlark.com/yuque/0/2024/png/34596451/1732535239901-d5e0c042-4ce0-457c-8baa-1209e8115089.png)  
+![](1732535239901-d5e0c042-4ce0-457c-8baa-1209e8115089.png)  
 如上图所示，现在只对borrow2/{uid}方法进行限流，borrow/{uid}不受限流影响
 
 除了直接对接口进行限流规则控制之外，我们也可以根据当前系统的资源使用情况，决定是否进行限流：
 
-![](https://cdn.nlark.com/yuque/0/2024/webp/34596451/1732535301833-63c32b2a-5b5d-452d-82d3-fd530d48e885.webp)
+![](1732535301833-63c32b2a-5b5d-452d-82d3-fd530d48e885.webp)
 
 系统规则支持以下的模式：
 
@@ -577,7 +577,7 @@ spring:
 
 <font style="color:rgb(93, 93, 93);">这样，当被限流时，就会被重定向到指定页面：</font>
 
-![](https://cdn.nlark.com/yuque/0/2024/png/34596451/1732536464828-23e60bc7-fd7f-4ace-b47e-3cbde9382c1c.png)
+![](1732536464828-23e60bc7-fd7f-4ace-b47e-3cbde9382c1c.png)
 
 #### 限流方法处理
 当某个方法被限流时，会直接在后台抛出异常，这个时候我们需要通过注解，利用替代方法返回。
@@ -624,16 +624,16 @@ spring:
 ```
 
 限流显示  
-![](https://cdn.nlark.com/yuque/0/2024/png/34596451/1732538376600-b3b14aa6-69f8-4111-af2c-78073a8bed20.png)
+![](1732538376600-b3b14aa6-69f8-4111-af2c-78073a8bed20.png)
 
 热点规则设置
 
-![](https://cdn.nlark.com/yuque/0/2024/png/34596451/1732538343944-a63f8092-1001-44be-a1d8-7e42761ef941.png)
+![](1732538343944-a63f8092-1001-44be-a1d8-7e42761ef941.png)
 
 ### 服务熔断和降级
 <font style="color:rgb(93, 93, 93);">在整个微服务调用链路出现问题的时候，及时对服务进行降级，以防止问题进一步恶化。</font>
 
-![](https://cdn.nlark.com/yuque/0/2024/webp/34596451/1732541247283-fbc062e9-642e-4e61-9c2b-9c06ca8afa53.webp)
+![](1732541247283-fbc062e9-642e-4e61-9c2b-9c06ca8afa53.webp)
 
 <font style="color:rgb(93, 93, 93);">如果在某一时刻，服务B出现故障（可能就卡在那里了），而这时服务A依然有大量的请求，在调用服务B，那么，由于服务A没办法再短时间内完成处理，新来的请求就会导致线程数不断地增加，这样，CPU的资源很快就会被耗尽。</font>
 
@@ -657,7 +657,7 @@ spring:
 + <font style="color:rgb(93, 93, 93);">打开：熔断器工作，所有请求一律降级处理。</font>
 + <font style="color:rgb(93, 93, 93);">半开：尝试进行一下下正常流程，要是还不行继续保持打开状态，否则关闭。</font>
 
-![](https://cdn.nlark.com/yuque/0/2024/png/34596451/1732541380241-88eb3345-0685-4f4e-9411-9ec3f8be6042.png)
+![](1732541380241-88eb3345-0685-4f4e-9411-9ec3f8be6042.png)
 
 #### 熔断策略
 ##### 慢调用比例
@@ -671,14 +671,14 @@ UserBorrowDetail findUserBorrows2(@PathVariable("uid") int uid) throws Interrupt
 }
 ```
 
-![](https://cdn.nlark.com/yuque/0/2024/png/34596451/1732541540825-53ed86b3-dc14-4260-8ee5-bee14655c6c9.png)
+![](1732541540825-53ed86b3-dc14-4260-8ee5-bee14655c6c9.png)
 
 <font style="color:rgb(93, 93, 93);">此时超时则会直接触发熔断机制，进入阻止页面。</font>
 
 ##### <font style="color:rgb(93, 93, 93);">异常比例</font>
 <font style="color:rgb(93, 93, 93);"> 这个与慢调用比例类似，不过这里判断的是出现异常的次数</font>
 
-![](https://cdn.nlark.com/yuque/0/2024/png/34596451/1732541644659-cf4ea51b-b449-414d-9f5b-02b348de6bd9.png)
+![](1732541644659-cf4ea51b-b449-414d-9f5b-02b348de6bd9.png)
 
 ##### 异常数
 <font style="color:rgb(93, 93, 93);">这个和上面的唯一区别就是，只要达到指定的异常数量，就熔断</font>
@@ -724,7 +724,7 @@ public interface BookClient {
 ```
 
 然后直接启动，中途下线其他服务，就可以看到正常使用替代方案  
-![](https://cdn.nlark.com/yuque/0/2024/png/34596451/1732542014329-6cd1ddc1-4c97-4858-a9fe-ea5d2e2b8abf.png)
+![](1732542014329-6cd1ddc1-4c97-4858-a9fe-ea5d2e2b8abf.png)
 
 ## seata
 单体应用可以通过@<font style="color:rgb(17, 17, 17);">transactional实现回滚，但分布式需要通过Seata实现</font>
@@ -743,7 +743,7 @@ Seata 对分布式事务的协调和控制，主要是通过 XID 和 3 个核心
 
 <font style="color:rgb(17, 17, 17);">以上三个组件相互协作，TC 以 Seata 服务器（Server）形式独立部署，TM 和 RM 则是以 Seata Client 的形式集成在微服务中运行，其整体工作流程如下图。</font>
 
-![](https://cdn.nlark.com/yuque/0/2024/png/34596451/1732601959307-9a332c09-ec55-4677-b87e-54991f1af5d9.png)  
+![](1732601959307-9a332c09-ec55-4677-b87e-54991f1af5d9.png)  
 图1：Sentinel 的工作流程
 
 Seata 的整体工作流程如下：
